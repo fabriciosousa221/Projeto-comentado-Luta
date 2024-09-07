@@ -1,9 +1,9 @@
-class LitleMonster extends Character {
+class LittleMonster extends Character {
     constructor() {
-        super('Big Monster')
-        this.life  = 80
+        super('Little Monster')
+        this.life = 80
         this.attack = 15
         this.defense = 3
-        this.maxlife = this.life
+        this.maxLife = this.life
     }
 }
